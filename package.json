@@ -14,7 +14,6 @@
     "check": "npm-check -s -u"
   },
   "dependencies": {
-    "@types/promise-fs": "^2.1.5",
     "fs.promises": "^0.1.2",
     "react": "18.2.0",
     "react-native": "0.72.6"
@@ -29,6 +28,7 @@
     "@types/jest": "^29.5.5",
     "@types/node": "^20.9.0",
     "@types/node-sass": "^4.11.7",
+    "@types/promise-fs": "^2.1.5",
     "@types/react": "^18.0.24",
     "@types/react-native": "^0.72.6",
     "@types/react-test-renderer": "^18.0.0",

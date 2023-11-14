@@ -1,0 +1,44 @@
+$phone: 600px;
+$tablet-port: 900px;
+$tablet-land: 1200px;
+$mini-desktop: 1400px;
+$desktop: 1600px;
+$big-desktop: 1800px;
+
+@mixin responsive($breakpoint) {
+  @if $breakpoint ==phone {
+    @media (max-width: 37.5em) {
+      @content
+    }
+  }
+
+  @if $breakpoint ==tablet-port {
+    @media (max-width: 56.25em) {
+      @content
+    }
+  }
+
+  @if $breakpoint ==tablet-land {
+    @media (max-width: 75em) {
+      @content
+    }
+  }
+
+  @if $breakpoint ==mini-desktop {
+    @media (max-width: 87.5em) {
+      @content
+    }
+  }
+
+  @if $breakpoint ==desktop {
+    @media (max-width: 100em) {
+      @content
+    }
+  }
+
+  @if $breakpoint ==big-desktop {
+    @media (min-width: 112.5em) {
+      @content
+    }
+  }
+}

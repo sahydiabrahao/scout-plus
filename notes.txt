@@ -11,3 +11,4 @@ $ npm i -D lint-staged											.lintstagedrc.json
 $ npm i -D husky												.husky
 
 npm i node-sass @types/node-sass npm i react-native-sass-transformer -D
+npm install --save-dev babel-plugin-module-resolver
