@@ -21,7 +21,7 @@ Welcome to Scout Plus - your comprehensive platform for football team analysis. 
 
 Scout Plus design was created using Figma, a popular design tool for creating digital products. Also crafted using Test-Driven Development (TDD) and adhering to the principles of Clean Architecture. Test-Driven Development ensured a robust and error-resistant design, while Clean Architecture guided the organization of the codebase, promoting modularity and maintainability. The result is a thoughtfully designed system that prioritizes reliability, scalability, and simplicity, aligning with the best practices of TDD and Clean Architecture methodologies.
 
-- <a href="https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1156652544076113041">Scout Plus-Figma</a>
+- <a href="https://www.figma.com/file/ClwaoLzUoXRAQAl8yaxHBE/scout-cba?type=design&mode=design&t=mS2vG9DeADJJkhax-1">Scout Plus-Figma</a>
 
 Press "Ctrl + Scroll" to ZoomIn and ZoomOut.
 
