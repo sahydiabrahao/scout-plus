@@ -7,8 +7,8 @@ Welcome to Scout Plus - your comprehensive platform for football team analysis. 
 
 
 - Match Analysis: Dive deep into match statistics, player performance, and team dynamics.
-  = Individual Player Profiles: Maintain detailed profiles for each player, including their strengths, weaknesses, and key performance indicators.
-  = Centralized Schedule: View and manage all upcoming matches and events in one centralized calendar.
+- Individual Player Profiles: Maintain detailed profiles for each player, including their strengths, weaknesses, and key performance indicators.
+- Centralized Schedule: View and manage all upcoming matches and events in one centralized calendar.
 - Efficient Communication: Foster efficient communication among team members with integrated messaging features.
 
 ## Why Choose Scout Plus for Football Analysis?
