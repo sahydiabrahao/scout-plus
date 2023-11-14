@@ -1,8 +1,10 @@
 # Scout Plus
+![scout-plus](https://github.com/sahydiabrahao/scout-plus/assets/114512729/98cec42a-c571-4461-aa35-16e2add1a4fa)
 
 Welcome to Scout Plus - your comprehensive platform for football team analysis. With advanced features and an intuitive interface, Scout Plus is designed to make football scouting and team management more efficient and enjoyable.
 
 ## Features
+
 
 - Match Analysis: Dive deep into match statistics, player performance, and team dynamics.
   = Individual Player Profiles: Maintain detailed profiles for each player, including their strengths, weaknesses, and key performance indicators.
