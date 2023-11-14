@@ -1,13 +1,39 @@
 @import './src/ui/styles/main.scss';
 
 .background {
+    position: fixed;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    gap: 1.6rem;
     background: $primary;
     width: 100%;
     height: 100%;
+    padding: 1rem;
     
+}
+
+.boxCenter {
+    align-items: center;
 }
 
 .title {
     font-size: $h1;
+    color: $white;
+    font-weight: 700;
+}
+
+.scoutLogo {
+    width: 200;
+    height: 200;
+  
+}
+
+.text {
+    font-size: $h4;
+    font-weight: 400;
     color: $white;
 }
