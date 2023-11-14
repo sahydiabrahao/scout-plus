@@ -11,12 +11,11 @@ module.exports = (async () => {
 
   const config = {
     transformer: {
-      babelTransformerPath: require.resolve('react-native-sass-transformer'),
+      babelTransformerPath: require.resolve('react-native-sass-transformer')
     },
     resolver: {
-      sourceExts: [...defaultConfig.resolver.sourceExts, 'scss', 'sass'],
-    },
+      sourceExts: [...defaultConfig.resolver.sourceExts, 'scss', 'sass']
+    }
   };
-
   return mergeConfig(defaultConfig, config);
 })();

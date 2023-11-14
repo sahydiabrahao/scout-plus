@@ -12,3 +12,7 @@ $ npm i -D husky												.husky
 
 npm i node-sass @types/node-sass npm i react-native-sass-transformer -D
 npm install --save-dev babel-plugin-module-resolver
+
+npm i react-native-svg
+npm i --save-dev react-native-svg
+npm i --save-dev react-native-base64

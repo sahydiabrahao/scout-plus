@@ -7,40 +7,10 @@
   box-sizing: inherit;
 }
 
-html {
-  font-size: 62.5%;
-
-  /*1rem = 10px*/
-  @include responsive(desktop) {
-    // width < 1600?
-    font-size: 64.7%; //1rem = 12, 12/16
-  }
-
-  @include responsive(mini-desktop) {
-    // width < 1400?
-    font-size: 58.3%; //1rem = 12, 12/16
-  }
-
-  @include responsive(tablet-land) {
-    // width < 1200?
-    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
-  }
-
-  @include responsive(tablet-port) {
-    // width < 900?
-    font-size: 50%; //1 rem = 8px, 8/16 = 50%
-  }
-
-  @include responsive(big-desktop) {
-    // width > 1800?
-    font-size: 75%; //1rem = 12, 12/16
-  }
-}
-
 
 body {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.5;
 
