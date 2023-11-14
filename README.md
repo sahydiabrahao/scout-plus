@@ -1,79 +1,35 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Scout Plus
 
-# Getting Started
+Welcome to Scout Plus - your comprehensive platform for football team analysis. With advanced features and an intuitive interface, Scout Plus is designed to make football scouting and team management more efficient and enjoyable.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- Match Analysis: Dive deep into match statistics, player performance, and team dynamics.
+  = Individual Player Profiles: Maintain detailed profiles for each player, including their strengths, weaknesses, and key performance indicators.
+  = Centralized Schedule: View and manage all upcoming matches and events in one centralized calendar.
+- Efficient Communication: Foster efficient communication among team members with integrated messaging features.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Why Choose Scout Plus for Football Analysis?
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- Streamlined Organization: Keep all crucial team information in one centralized platform.
+- Performance Tracking: Monitor individual and team performance to identify areas for improvement.
+- Enhanced Collaboration: Promote collaboration among team members with a unified platform.
 
-```bash
-# using npm
-npm start
+## Design
 
-# OR using Yarn
-yarn start
-```
+Scout Plus design was created using Figma, a popular design tool for creating digital products. The design features a modern and minimalist aesthetic, with a focus on clean lines and white space.
 
-## Step 2: Start your Application
+Scout Plus-Figma
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Press "Ctrl + Scroll" to ZoomIn and ZoomOut.
 
-### For Android
+Keep Press "Space" to move.
 
-```bash
-# using npm
-npm run android
+Technologies Used
 
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- Figma
+- React Native
+- SCSS
+- TypeScript
+- Test Driven Development
+- Clean Architecture
