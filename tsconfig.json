@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2019",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDirs": ["src", "__tests__"],
+    "baseUrl": "src",
+    "paths": {
+      "@/__tests__/*": ["../__tests__/*"],
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src", "__tests__"],
+  "exclude": []
+}
