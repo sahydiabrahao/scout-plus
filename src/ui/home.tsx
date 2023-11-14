@@ -1,11 +1,11 @@
 import React from 'react';
 import {ImageBackground, Text, View} from 'react-native';
-import styles from './App.scss'; 
+import styles from './home.scss'; 
 import { SvgXml } from 'react-native-svg';
 import base64 from 'react-native-base64'
-import { LogoSvg, GradientBackground } from './assets/files-svg';
+import { LogoSvg } from './assets/files-svg';
 
-function App(): JSX.Element {
+function HomeScreen(): JSX.Element {
 
   const getbasse64svgimg: any= (svg: any):string =>{
     let finalbase64string = "";
@@ -14,7 +14,6 @@ function App(): JSX.Element {
   }
 
   const LogoBase64 = getbasse64svgimg(LogoSvg);
-  const GradientBackgroundBase64 = getbasse64svgimg(GradientBackground);
 
   return (
     <>
@@ -35,4 +34,4 @@ function App(): JSX.Element {
   );
 }
 
-export default App;
+export default HomeScreen;

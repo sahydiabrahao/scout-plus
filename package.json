@@ -14,12 +14,15 @@
     "check": "npm-check -s -u"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
     "fs.promises": "^0.1.2",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "react-native-safe-area-context": "^4.7.4",
+    "react-native-screens": "^3.27.0"
   },
   "devDependencies": {
-    "@types/react-native-base64": "^0.2.2",
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
@@ -32,6 +35,8 @@
     "@types/promise-fs": "^2.1.5",
     "@types/react": "^18.0.24",
     "@types/react-native": "^0.72.6",
+    "@types/react-native-base64": "^0.2.2",
+    "@types/react-navigation": "^3.4.0",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
     "eslint": "^8.19.0",
