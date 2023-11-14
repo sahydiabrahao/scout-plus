@@ -5,7 +5,7 @@ import { type DeleteMatchModel } from '@/domain/delete-match'
 import { type NewMatchModel } from '@/domain/new-match'
 import { type MatchModel } from '@/domain/protocols/match-model'
 import { type SaveMatchModel } from '@/domain/save-match'
-import fs from 'fs/promises'
+import fs from 'fs.promises'
 
 export class FsPromisesAdapter implements NewMatchRepository, SaveMatchRepository, DeleteMatchRepository {
   async new (newMatch: NewMatchModel): Promise<MatchModel> {

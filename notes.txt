@@ -9,3 +9,5 @@ $ npm i -D @typescript-eslint/eslint-plugin
 $ npm i -D jest @types/jest ts-jest								jest.config.js jest.unit.config.js jest.integration.config. [config jest scripts]
 $ npm i -D lint-staged											.lintstagedrc.json
 $ npm i -D husky												.husky
+
+npm i node-sass @types/node-sass npm i react-native-sass-transformer -D

@@ -6,6 +6,17 @@ const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
  *
  * @type {import('metro-config').MetroConfig}
  */
-const config = {};
+module.exports = (async () => {
+  const defaultConfig = await getDefaultConfig(__dirname);
 
-module.exports = mergeConfig(getDefaultConfig(__dirname), config);
+  const config = {
+    transformer: {
+      babelTransformerPath: require.resolve('react-native-sass-transformer'),
+    },
+    resolver: {
+      sourceExts: [...defaultConfig.resolver.sourceExts, 'scss', 'sass'],
+    },
+  };
+
+  return mergeConfig(defaultConfig, config);
+})();
