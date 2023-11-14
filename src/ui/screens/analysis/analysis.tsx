@@ -1,11 +1,11 @@
 import React from 'react';
 import {ImageBackground, Text, View} from 'react-native';
-import styles from './home.scss'; 
+import styles from './analysis.scss'; 
 import { SvgXml } from 'react-native-svg';
 import base64 from 'react-native-base64'
-import { LogoSvg } from './assets/files-svg';
+import { LogoSvg } from '../../assets/files-svg';
 
-function HomeScreen(): JSX.Element {
+function AnalysisScreen(): JSX.Element {
 
   const getbasse64svgimg: any= (svg: any):string =>{
     let finalbase64string = "";
@@ -20,18 +20,11 @@ function HomeScreen(): JSX.Element {
       <View style={styles.background}>
         <View>
           <Text style={styles.title}>ANALYZE</Text>
-          <Text style={styles.title}>SOCCER</Text>
-          <Text style={styles.title}>TEAMS</Text>
-        </View>
-        <View style={styles.boxCenter}>
-          <SvgXml  style={styles.scoutLogo} xml={LogoBase64} />
-        </View>
-        <View style={styles.boxCenter}>
-          <Text style={styles.text}>Continue with a touch</Text>
+          <Text style={styles.title}>SCREEN</Text>
         </View>
       </View>
     </>
   );
 }
 
-export default HomeScreen;
+export default AnalysisScreen;
